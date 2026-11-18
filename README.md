@@ -31,7 +31,7 @@ src/styles/          Estilos globais e regras responsivas
 src/App.jsx          Estrutura do site e navegação
 src/main.jsx         Inicialização do React
 docs/                Briefing, escopo e checklist de revisão
-.github/workflows/   Verificação automática da compilação
+.github/workflows/   Verificação e publicação automática
 .figma/make/         Configuração preservada da importação no Make
 ```
 
@@ -48,7 +48,9 @@ docs/                Briefing, escopo e checklist de revisão
 
 Esta versão é institucional e não recebe pedidos, pagamentos ou mensagens. O e-commerce está apenas planejado para uma etapa futura da A2. Consulte [briefing e escopo](docs/briefing-e-escopo.md) e [checklist de revisão](docs/checklist.md).
 
-O repositório não publica o site automaticamente. O fluxo do GitHub Actions apenas verifica a compilação. A configuração de hospedagem e a publicação devem ocorrer após validação do conteúdo.
+O fluxo `Verificar projeto` confere a compilação. O fluxo `Publicar no GitHub Pages` publica a pasta `dist/` a cada envio para `main` ou por execução manual. O Pages está habilitado com a origem **GitHub Actions** nas configurações do repositório.
+
+Endereço do site: [Lar Café](https://jgprimo08-byte.github.io/lar-cafe-institucional/). O código usa caminhos relativos e navegação por hash, compatíveis com o endereço de projeto `/lar-cafe-institucional/`. A publicação mantém as sinalizações de conteúdo em validação.
 
 ## Imagens e permissões
 
