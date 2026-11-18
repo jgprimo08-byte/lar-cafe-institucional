@@ -34,22 +34,28 @@ export default function History() {
             novos encontros.
           </h2>
           <p>
-            Segundo o briefing dos proprietários, a Lar Café surgiu como uma
-            extensão de uma ONG que acolhe refugiados de regiões afetadas por
-            guerras.
+            A Lar Café nasceu como uma extensão de uma ONG que acolhe pessoas
+            refugiadas de regiões afetadas por guerras. Foi desse compromisso com
+            o cuidado e a solidariedade que surgiu a ideia de uma cafeteria: um
+            espaço onde o acolhimento também pudesse acontecer ao redor de uma
+            mesa, entre um café e uma boa conversa.
           </p>
           <p>
-            O briefing também informa que o lucro da cafeteria é destinado ao
-            sustento dessas pessoas.
+            Nossa proposta é apresentar cafés de qualidade de diferentes lugares
+            do mundo em um ambiente que faça as pessoas se sentirem em casa.
+            Queremos que cada encontro seja uma oportunidade de compartilhar
+            histórias, conhecer novos sabores e criar vínculos.
           </p>
-          <aside className="notice">
-            <strong>História em revisão</strong>
-            <p>
-              Este texto aguarda aprovação dos proprietários. O nome da ONG, os
-              detalhes da atuação e a destinação dos recursos serão confirmados
-              antes da publicação.
-            </p>
-          </aside>
+          <p>
+            Esse propósito vai além da cafeteria. O lucro da Lar Café é destinado
+            ao sustento das pessoas acolhidas pela ONG, contribuindo para a
+            continuidade desse trabalho.
+          </p>
+          <p>
+            É isso que dá sentido ao nosso nome: ser um lugar de encontro, cuidado
+            e pertencimento. Um lar para boas conversas — e para histórias que
+            continuam a ser escritas.
+          </p>
         </div>
       </section>
       <section className="wrap principles">
