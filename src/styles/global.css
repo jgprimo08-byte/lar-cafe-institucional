@@ -89,18 +89,19 @@ header {
 }
 .logo-window {
   display: block;
-  width: 156px;
-  height: 60px;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
   overflow: hidden;
   position: relative;
   background: #e5cbab;
 }
 .logo-window img {
   position: absolute;
-  width: 174px;
+  width: 115.6%;
   max-width: none;
-  top: -88px;
-  left: -9px;
+  top: 0;
+  left: -7.8%;
   height: auto;
 }
 nav {
@@ -558,13 +559,8 @@ footer a:focus-visible {
     gap: 10px;
   }
   .logo-window {
-    width: 140px;
-    height: 54px;
-  }
-  .logo-window img {
-    width: 156px;
-    left: -8px;
-    top: -79px;
+    width: 82px;
+    height: 82px;
   }
   .menu-toggle {
     display: block;
